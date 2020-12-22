@@ -1,0 +1,29 @@
+{
+  "name": "localgiving-obs",
+  "version": "0.0.1",
+  "description": "a OBS browser overlay for Local Giving fundraising pages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cache": "^2.3.1",
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "body-parser": "^1.19.0",
+    "tmi.js": "^1.7.1",
+    "dotenv": "^8.2.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/localgiving-obs"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
